@@ -54,7 +54,6 @@ const LoginPage = () => {
               <Input
                 id="phone"
                 type="tel"
-                placeholder="+254712345678"
                 value={phoneInput}
                 onChange={(e) => {
                   setPhoneInput(e.target.value);
@@ -63,7 +62,7 @@ const LoginPage = () => {
                 autoFocus
               />
               <p className="text-xs text-muted-foreground">
-                Example: +254712345678
+                Example: +257658456732
               </p>
             </div>
 
