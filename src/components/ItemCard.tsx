@@ -7,10 +7,7 @@ interface ItemCardProps {
 }
 
 const ItemCard = ({ item, onClick }: ItemCardProps) => (
-  <button
-    onClick={onClick}
-    className="group w-full rounded-lg border bg-card p-4 text-left transition-all hover:card-shadow-lg hover:border-accent/30 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-  >
+  <button onClick={onClick} className="group w-full rounded-lg border bg-card p-4 text-left transition-all hover:card-shadow-lg hover:border-accent/30 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring">
     <div className="flex items-start gap-4">
       <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-accent/10 text-accent font-semibold text-sm">
         {item.name.charAt(0)}
