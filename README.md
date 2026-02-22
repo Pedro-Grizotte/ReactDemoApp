@@ -42,13 +42,13 @@ Enter the project directory:
 ## 3) Steps on the Project 
 
 Before running the system, make sure your local copy is up to date:
+
 - **git** pull
-Run the following command:
 - **npm** install
-Start the development server:
 - **npm** run dev
 
 After starting, you shoul see something similar to:
+
 **Local**:   http://localhost:8080/
 **Network**: http://192.168.x.x:8080/
 
@@ -60,6 +60,7 @@ Try out the Network system from different devices :)
 On the login page:
 
 Enter the following phone number:
+
 - **+254712345678**
 
 Click **Login**
