@@ -8,6 +8,7 @@ import Header from "@/components/Header";
 import ProtectedRoute from "@/components/ProtectedRoute";
 import LoginPage from "@/pages/LoginPage";
 import MainPage from "@/pages/MainPage";
+import DetailPage from "@/pages/DetailPage";
 
 const queryClient = new QueryClient();
 
@@ -25,6 +26,7 @@ const App = () => {
               <Route path="/login" element={<LoginPage />} />
               <Route element={<ProtectedRoute />}>
                 <Route path="/main" element={<MainPage />} />
+                <Route path="/detail/:id" element={<DetailPage />} />
               </Route>
             </Routes>
           </BrowserRouter>
